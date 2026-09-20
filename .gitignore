@@ -1,0 +1,24 @@
+# Gradle / build output
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Local machine settings (contain your SDK path and username)
+local.properties
+
+# Android Studio / IDE
+.idea/
+*.iml
+.DS_Store
+
+# Generated / signing files
+*.apk
+*.aab
+*.ap_
+*.keystore
+*.jks
+
+# Logs
+*.log

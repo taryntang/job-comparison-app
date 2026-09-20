@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.taryntang.seclass.jobcompare.QuarterScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fadeScrollbars="false"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="8dp"
+    android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+    android:scrollbarTrackVertical="@drawable/scrollbar_track"
+    android:scrollbars="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="76dp"
+            android:text="Adjust Comparison Settings"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="88dp"
+            android:text="Yearly Salary"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/yearlySalary1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="204dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="76dp"
+            android:background="@android:color/transparent"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/yearlySalary"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="Enter Weight(Integer)"
+                android:shadowColor="#FFFFFF"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:text="Yearly Bonus"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
+            tools:text="Yearly Bonus" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/yearlyBonus1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/transparent"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yearlySalary1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/yearlyBonus"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="Enter Weight(Intger)"
+                android:shadowColor="#FFFFFF"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:text="Leave Time"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:text="Leave Time" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/leaveTime1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yearlyBonus1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/leaveTime"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="Enter Weight(Intger)"
+                android:shadowColor="#FFFFFF"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="154dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:text="Number of shares offered"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:text="Number of shares offered" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/numShares1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leaveTime1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/numShares"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="Enter Weight(Intger)"
+                android:shadowColor="#FFFFFF"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="154dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:text="Home Buying Program Fund"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:text="Home Buying Program Fund" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/homeBuyingFund1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numShares1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/homeBuyingFund"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="Enter Weight(Intger)"
+                android:shadowColor="#FFFFFF"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="154dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Wellness Fund"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:text="Wellness Fund" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/wellnessFund1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeBuyingFund1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/wellnessFund"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="Enter Weight(Intger)"
+                android:shadowColor="#FFFFFF"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/saveComparison"
+            android:layout_width="89dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="162dp"
+            android:text="Save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wellnessFund1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</id.taryntang.seclass.jobcompare.QuarterScrollView>

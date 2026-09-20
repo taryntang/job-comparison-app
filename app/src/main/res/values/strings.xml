@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">JobCompare</string>
+    <string name="jobDetailsTitle">Enter Job Details</string>
+    <string name="saveBtn">SAVE</string>
+    <string name="cancelBtn">CANCEL</string>
+    <string name="compareJobsBtn">Compare With Current Job</string>
+    <string name="enterOfferBtn">Enter Another Offer</string>
+    <string name="returnToMainBtn">Return to Main Menu</string>
+    <string-array name="job_details_fields">
+        <item>Title</item>
+        <item>Company</item>
+        <item>City</item>
+        <item>State</item>
+        <item>Yearly Salary</item>
+        <item>Yearly Bonus</item>
+        <item>Leave time</item>
+        <item>Number of stock option shares offered</item>
+        <item>Home buying program fund</item>
+        <item>Wellness fund</item>
+    </string-array>
+    <string-array name="job_details_placeholders">
+        <item>Enter Title</item>
+        <item>Enter Company</item>
+        <item>Enter City</item>
+        <item>Enter State</item>
+        <item>Enter Yearly Salary</item>
+        <item>Enter Yearly Bonus</item>
+        <item>Enter Leave time</item>
+        <item>Enter Number of shares</item>
+        <item>Enter Home buying fund</item>
+        <item>Enter Wellness fund</item>
+    </string-array>
+    <string-array name="security_questions">
+        <item>In what town or city were you born?</item>
+        <item>What was the name of your first pet?</item>
+        <item>What was the name of your first school?</item>
+        <item>What is your mother\'s maiden name?</item>
+        <item>What was the make of your first car?</item>
+    </string-array>
+</resources>

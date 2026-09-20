@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Business palette: navy primary, teal accent, gold highlight -->
+    <color name="primary">#FF1B365D</color>
+    <color name="primary_dark">#FF0F2340</color>
+    <color name="primary_light">#FF8FB3E0</color>
+    <color name="accent">#FF0E8C7F</color>
+    <color name="accent_dark">#FF096B61</color>
+    <color name="gold">#FFE0A526</color>
+    <color name="surface_bg">#FFF4F6F9</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
